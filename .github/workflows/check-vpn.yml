@@ -51,19 +51,28 @@ jobs:
             source/servers.json \
             output/servers.json
 
-      - name: Publish working servers to main
-        working-directory: output
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      # - name: Publish working servers to main
+      #   working-directory: output
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add servers.json
+      #     git add servers.json
 
-          if git diff --quiet -- servers.json; then
-            echo "The list of working servers has not changed."
-            exit 0
-          fi
+      #     if git diff --quiet -- servers.json; then
+      #       echo "The list of working servers has not changed."
+      #       exit 0
+      #     fi
 
-          git add servers.json
-          git commit -m "chore: update working VPN servers"
-          git push origin HEAD:main
+      #     git add servers.json
+      #     git commit -m "chore: update working VPN servers"
+      #     git push origin HEAD:main
+
+      - name: Commit and push working servers to main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: output
+          branch: main
+          file_pattern: servers.json
+          commit_message: "chore: update working VPN servers"
+          credit_user: true
