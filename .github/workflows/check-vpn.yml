@@ -57,6 +57,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          git add servers.json
+
           if git diff --quiet -- servers.json; then
             echo "The list of working servers has not changed."
             exit 0
