@@ -2,7 +2,7 @@
   "servers": [
     {
       "country": "Japan",
-      "config": "https://vpn.udfsoft.com/download/config/1qNa7ERRZwr3cQ9BTv22slNdr2drWj4Fc4Psrj8OpiprNoZ4rm3FBYgusyZXDSur"
+      "config": "https://www.vpngate.net/common/openvpn_download.aspx?sid=1792043077108&tcp=1&host=public-vpn-64.opengw.net&port=443&hid=15094252&/vpngate_public-vpn-64.opengw.net_tcp_443.ovpn"
     },
     {
       "country": "France",
