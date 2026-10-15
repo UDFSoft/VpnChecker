@@ -48,7 +48,7 @@ jobs:
 
       - name: Check VPN servers
         run: |
-          sudo python3 source/vpn_checker.py \
+          sudo python3 -u source/vpn_checker.py \
             source/servers.json \
             output/servers.json
 
