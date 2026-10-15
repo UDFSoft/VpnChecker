@@ -1,0 +1,16 @@
+{
+  "servers": [
+    {
+      "country": "Germany",
+      "config": "https://example.com/germany.ovpn"
+    },
+    {
+      "country": "France",
+      "config": "https://example.com/france.ovpn"
+    },
+    {
+      "country": "Netherlands",
+      "config": "https://example.com/netherlands.ovpn"
+    }
+  ]
+}
