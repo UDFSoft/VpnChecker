@@ -2,7 +2,7 @@
   "servers": [
     {
       "country": "Japan",
-      "config": "https://www.vpngate.net/common/openvpn_download.aspx?sid=1792040433924&tcp=1&host=public-vpn-216.opengw.net&port=443&hid=24869493&/vpngate_public-vpn-216.opengw.net_tcp_443.ovpn"
+      "config": "https://www.vpngate.net/common/openvpn_download.aspx?sid=1792041852509&tcp=1&host=public-vpn-216.opengw.net&port=443&hid=24869493&/vpngate_public-vpn-216.opengw.net_tcp_443.ovpn"
     },
     {
       "country": "France",
