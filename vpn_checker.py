@@ -92,6 +92,8 @@ def check_server(server):
     url = server.get("vpnConfigUrl")
     username = server.get("userName")
     password = server.get("userPassword")
+    host_name = server.get("hostName")
+    ip = server.get("ip")
 
     print(f"\nChecking: {country} — {url}")
 
@@ -167,6 +169,15 @@ def check_server(server):
                 return True
 
             print(f"FAILED: {country}")
+
+            # Сообщаем бэкенду о нерабочем сервере
+            if host_name and ip:
+                try:
+                    report_url = f"https://vpn.udfsoft.com/api/v1/servers/check/available?hostname={host_name}&ip={ip}&enable=0"
+                    requests.get(report_url, timeout=10)
+                    print(f"  Reported failure to backend for {host_name} ({ip})")
+                except Exception as report_error:
+                    print(f"  Failed to report server status: {report_error}")
 
             # Выводим последние строки журнала для диагностики.
             log_text = log_path.read_text(
