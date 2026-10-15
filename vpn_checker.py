@@ -44,13 +44,18 @@ def load_servers(path):
 
 
 def download_config(url):
-    if not isinstance(url, str) or not url.startswith("https://"):
-        raise ValueError("Only HTTPS config URLs are allowed")
+    if not isinstance(url, str) or not (url.startswith("https://") or url.startswith("http://")):
+        raise ValueError("Only HTTP/HTTPS config URLs are allowed")
+
+    headers = {
+        "X-APP-VERSION": "-125"
+    }
 
     response = requests.get(
         url,
+        headers=headers,
         timeout=DOWNLOAD_TIMEOUT,
-        allow_redirects=False,
+        allow_redirects=True,
     )
     response.raise_for_status()
 
@@ -81,15 +86,12 @@ def validate_config(config):
     if "<connection>" in config.lower():
         raise ValueError("Connection blocks are not supported")
 
-    if "<tls-crypt>" in config.lower() or "<tls-auth>" in config.lower():
-        # Inline TLS-ключи сами по себе не обязательно опасны.
-        # Оставляем их разрешёнными.
-        pass
-
 
 def check_server(server):
     country = server.get("country", "Unknown")
-    url = server.get("config")
+    url = server.get("vpnConfigUrl")
+    username = server.get("userName")
+    password = server.get("userPassword")
 
     print(f"\nChecking: {country} — {url}")
 
@@ -100,18 +102,25 @@ def check_server(server):
         with tempfile.TemporaryDirectory() as temp_dir:
             config_path = Path(temp_dir) / "server.ovpn"
             log_path = Path(temp_dir) / "openvpn.log"
+            auth_path = Path(temp_dir) / "credentials.txt"
 
             config_path.write_text(config, encoding="utf-8")
 
-            # Не используем sudo. OpenVPN запускается с правами
-            # пользователя GitHub Actions.
+            openvpn_args = [
+                "openvpn",
+                "--config", str(config_path),
+                "--verb", "3",
+            ]
+
+            # Если заданы имя пользователя и пароль, передаем их безопасно через файл авторизации
+            if username and password:
+                auth_path.write_text(f"{username}\n{password}\n", encoding="utf-8")
+                openvpn_args.extend(["--auth-user-pass", str(auth_path)])
+
+            # Не используем sudo. OpenVPN запускается с правами пользователя GitHub Actions.
             with open(log_path, "w", encoding="utf-8") as log_file:
                 process = subprocess.Popen(
-                    [
-                        "openvpn",
-                        "--config", str(config_path),
-                        "--verb", "3",
-                    ],
+                    openvpn_args,
                     stdout=log_file,
                     stderr=subprocess.STDOUT,
                     text=True,
