@@ -1,0 +1,67 @@
+name: Check OpenVPN Servers
+
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - "servers.json"
+      - ".github/workflows/check-vpn.yml"
+      - "vpn_checker.py"
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vpn-checker
+  cancel-in-progress: false
+
+jobs:
+  check-servers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout dev branch
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          path: source
+
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: output
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn python3-requests
+
+      - name: Check VPN servers
+        run: |
+          python3 source/vpn_checker.py \
+            source/servers.json \
+            output/servers.json
+
+      - name: Publish working servers to main
+        working-directory: output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- servers.json; then
+            echo "The list of working servers has not changed."
+            exit 0
+          fi
+
+          git add servers.json
+          git commit -m "chore: update working VPN servers"
+          git push origin HEAD:main
