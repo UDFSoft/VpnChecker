@@ -28,19 +28,6 @@
       "enabled": 1
     },
     {
-      "id": 59020,
-      "country": "Japan",
-      "ip": "219.100.37.21",
-      "hostName": "public-vpn-57",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/59020",
-      "ping": 11,
-      "downloadSpeed": 109.66,
-      "uploadSpeed": 54.83,
-      "enabled": 1
-    },
-    {
       "id": 309707,
       "country": "Japan",
       "ip": "125.51.57.36",
@@ -145,19 +132,6 @@
       "enabled": 1
     },
     {
-      "id": 306008,
-      "country": "Croatia (LOCAL Name: Hrvatska)",
-      "ip": "150.40.105.18",
-      "hostName": "vpn696985249",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/306008",
-      "ping": 1,
-      "downloadSpeed": 219.98,
-      "uploadSpeed": 109.99,
-      "enabled": 1
-    },
-    {
       "id": 306298,
       "country": "Japan",
       "ip": "111.238.167.52",
@@ -194,6 +168,19 @@
       "ping": 16,
       "downloadSpeed": 729.29,
       "uploadSpeed": 364.65,
+      "enabled": 1
+    },
+    {
+      "id": 317083,
+      "country": "Japan",
+      "ip": "219.100.37.116",
+      "hostName": "public-vpn-137",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/317083",
+      "ping": 12,
+      "downloadSpeed": 484.92,
+      "uploadSpeed": 242.46,
       "enabled": 1
     }
   ]
