@@ -2,19 +2,6 @@
   "type": "top",
   "servers": [
     {
-      "id": 317981,
-      "country": "Japan",
-      "ip": "120.51.71.209",
-      "hostName": "vpn570604960",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/317981",
-      "ping": 28,
-      "downloadSpeed": 184.66,
-      "uploadSpeed": 92.33,
-      "enabled": 1
-    },
-    {
       "id": 314950,
       "country": "Armenia",
       "ip": "37.252.65.108",
@@ -25,6 +12,19 @@
       "ping": 35,
       "downloadSpeed": 34.82,
       "uploadSpeed": 17.41,
+      "enabled": 1
+    },
+    {
+      "id": 317981,
+      "country": "Japan",
+      "ip": "120.51.71.209",
+      "hostName": "vpn570604960",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/317981",
+      "ping": 28,
+      "downloadSpeed": 184.66,
+      "uploadSpeed": 92.33,
       "enabled": 1
     },
     {
@@ -132,19 +132,6 @@
       "enabled": 1
     },
     {
-      "id": 306298,
-      "country": "Japan",
-      "ip": "111.238.167.52",
-      "hostName": "vpn246938806",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/306298",
-      "ping": 2,
-      "downloadSpeed": 820.48,
-      "uploadSpeed": 410.24,
-      "enabled": 1
-    },
-    {
       "id": 303683,
       "country": "Korea Republic of",
       "ip": "221.155.188.2",
@@ -171,16 +158,16 @@
       "enabled": 1
     },
     {
-      "id": 317083,
+      "id": 316990,
       "country": "Japan",
-      "ip": "219.100.37.116",
-      "hostName": "public-vpn-137",
+      "ip": "180.19.240.86",
+      "hostName": "vpn353329268",
       "userName": "vpn",
       "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/317083",
-      "ping": 12,
-      "downloadSpeed": 484.92,
-      "uploadSpeed": 242.46,
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/316990",
+      "ping": 5,
+      "downloadSpeed": 0,
+      "uploadSpeed": 0,
       "enabled": 1
     }
   ]
