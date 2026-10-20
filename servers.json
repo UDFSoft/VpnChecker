@@ -171,6 +171,19 @@
       "enabled": 1
     },
     {
+      "id": 316298,
+      "country": "Japan",
+      "ip": "106.177.117.146",
+      "hostName": "vpn989367060",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/316298",
+      "ping": 16,
+      "downloadSpeed": 729.29,
+      "uploadSpeed": 364.65,
+      "enabled": 1
+    },
+    {
       "id": 306008,
       "country": "Croatia (LOCAL Name: Hrvatska)",
       "ip": "150.40.105.18",
