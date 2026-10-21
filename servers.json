@@ -184,6 +184,19 @@
       "enabled": 1
     },
     {
+      "id": 309209,
+      "country": "Japan",
+      "ip": "126.219.150.109",
+      "hostName": "vpn631052858",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/309209",
+      "ping": 6,
+      "downloadSpeed": 54.6,
+      "uploadSpeed": 27.3,
+      "enabled": 1
+    },
+    {
       "id": 309099,
       "country": "Korea Republic of",
       "ip": "211.220.29.203",
