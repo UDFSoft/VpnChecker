@@ -54,6 +54,19 @@
       "enabled": 1
     },
     {
+      "id": 321121,
+      "country": "Estonia",
+      "ip": "84.52.61.11",
+      "hostName": "vpn513507052",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321121",
+      "ping": 2,
+      "downloadSpeed": 43.3,
+      "uploadSpeed": 21.65,
+      "enabled": 1
+    },
+    {
       "id": 321120,
       "country": "Korea Republic of",
       "ip": "125.251.142.190",
@@ -64,6 +77,19 @@
       "ping": 36,
       "downloadSpeed": 396.94,
       "uploadSpeed": 198.47,
+      "enabled": 1
+    },
+    {
+      "id": 321115,
+      "country": "United States",
+      "ip": "163.192.14.135",
+      "hostName": "vpn142860837",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321115",
+      "ping": 1,
+      "downloadSpeed": 8.63,
+      "uploadSpeed": 4.32,
       "enabled": 1
     },
     {
