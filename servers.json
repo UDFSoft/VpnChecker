@@ -54,19 +54,6 @@
       "enabled": 1
     },
     {
-      "id": 321322,
-      "country": "Korea Republic of",
-      "ip": "211.115.152.102",
-      "hostName": "vpn458579437",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321322",
-      "ping": 29,
-      "downloadSpeed": 772.23,
-      "uploadSpeed": 386.12,
-      "enabled": 1
-    },
-    {
       "id": 321313,
       "country": "Thailand",
       "ip": "27.130.15.36",
