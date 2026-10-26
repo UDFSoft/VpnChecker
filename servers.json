@@ -2,19 +2,6 @@
   "type": "top",
   "servers": [
     {
-      "id": 312266,
-      "country": "Australia",
-      "ip": "175.34.68.114",
-      "hostName": "vpn761613611",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/312266",
-      "ping": 26,
-      "downloadSpeed": 97.82,
-      "uploadSpeed": 48.91,
-      "enabled": 1
-    },
-    {
       "id": 315709,
       "country": "Korea Republic of",
       "ip": "175.198.244.29",
@@ -64,19 +51,6 @@
       "ping": 32,
       "downloadSpeed": 91.61,
       "uploadSpeed": 45.81,
-      "enabled": 1
-    },
-    {
-      "id": 320645,
-      "country": "Korea Republic of",
-      "ip": "175.113.163.59",
-      "hostName": "vpn954065459",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/320645",
-      "ping": 48,
-      "downloadSpeed": 84.88,
-      "uploadSpeed": 42.44,
       "enabled": 1
     },
     {
@@ -145,19 +119,6 @@
       "enabled": 1
     },
     {
-      "id": 321336,
-      "country": "Korea Republic of",
-      "ip": "1.177.233.205",
-      "hostName": "vpn433860515",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321336",
-      "ping": 37,
-      "downloadSpeed": 69.94,
-      "uploadSpeed": 34.97,
-      "enabled": 1
-    },
-    {
       "id": 308122,
       "country": "Korea Republic of",
       "ip": "49.174.213.183",
@@ -168,6 +129,19 @@
       "ping": 64,
       "downloadSpeed": 83.1,
       "uploadSpeed": 41.55,
+      "enabled": 1
+    },
+    {
+      "id": 321222,
+      "country": "Korea Republic of",
+      "ip": "27.119.130.58",
+      "hostName": "vpn546914302",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321222",
+      "ping": 39,
+      "downloadSpeed": 201.65,
+      "uploadSpeed": 100.83,
       "enabled": 1
     },
     {
