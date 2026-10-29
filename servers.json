@@ -2,32 +2,6 @@
   "type": "new",
   "servers": [
     {
-      "id": 322406,
-      "country": "Japan",
-      "ip": "106.146.12.200",
-      "hostName": "vpn543824930",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322406",
-      "ping": 28,
-      "downloadSpeed": 80.28,
-      "uploadSpeed": 40.14,
-      "enabled": 1
-    },
-    {
-      "id": 322404,
-      "country": "Korea Republic of",
-      "ip": "222.237.48.125",
-      "hostName": "vpn278331865",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322404",
-      "ping": 30,
-      "downloadSpeed": 81.9,
-      "uploadSpeed": 40.95,
-      "enabled": 1
-    },
-    {
       "id": 322402,
       "country": "Japan",
       "ip": "160.248.199.227",
@@ -51,19 +25,6 @@
       "ping": 11,
       "downloadSpeed": 181.94,
       "uploadSpeed": 90.97,
-      "enabled": 1
-    },
-    {
-      "id": 322398,
-      "country": "Japan",
-      "ip": "1.21.49.201",
-      "hostName": "vpn907538925",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322398",
-      "ping": 2,
-      "downloadSpeed": 915.53,
-      "uploadSpeed": 457.77,
       "enabled": 1
     },
     {
@@ -106,16 +67,16 @@
       "enabled": 1
     },
     {
-      "id": 322392,
-      "country": "Thailand",
-      "ip": "183.89.6.175",
-      "hostName": "vpn390901297",
+      "id": 322393,
+      "country": "Korea Republic of",
+      "ip": "121.134.89.217",
+      "hostName": "vpn126628832",
       "userName": "vpn",
       "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322392",
-      "ping": 5,
-      "downloadSpeed": 19.57,
-      "uploadSpeed": 9.79,
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322393",
+      "ping": 31,
+      "downloadSpeed": 120.79,
+      "uploadSpeed": 60.4,
       "enabled": 1
     },
     {
@@ -210,19 +171,6 @@
       "enabled": 1
     },
     {
-      "id": 322382,
-      "country": "Thailand",
-      "ip": "183.88.47.134",
-      "hostName": "vpn409099051",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322382",
-      "ping": 14,
-      "downloadSpeed": 288.03,
-      "uploadSpeed": 144.02,
-      "enabled": 1
-    },
-    {
       "id": 321805,
       "country": "Viet Nam",
       "ip": "42.118.99.136",
@@ -249,19 +197,6 @@
       "enabled": 1
     },
     {
-      "id": 321222,
-      "country": "Korea Republic of",
-      "ip": "27.119.130.58",
-      "hostName": "vpn546914302",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321222",
-      "ping": 40,
-      "downloadSpeed": 149.15,
-      "uploadSpeed": 74.58,
-      "enabled": 1
-    },
-    {
       "id": 321217,
       "country": "Korea Republic of",
       "ip": "183.108.90.145",
@@ -272,6 +207,19 @@
       "ping": 29,
       "downloadSpeed": 15.77,
       "uploadSpeed": 7.89,
+      "enabled": 1
+    },
+    {
+      "id": 320643,
+      "country": "Korea Republic of",
+      "ip": "121.140.235.198",
+      "hostName": "vpn581884957",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/320643",
+      "ping": 28,
+      "downloadSpeed": 58.89,
+      "uploadSpeed": 29.45,
       "enabled": 1
     },
     {
@@ -415,6 +363,19 @@
       "ping": 23,
       "downloadSpeed": 650.52,
       "uploadSpeed": 325.26,
+      "enabled": 1
+    },
+    {
+      "id": 316009,
+      "country": "Japan",
+      "ip": "180.10.176.183",
+      "hostName": "vpn736078005",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/316009",
+      "ping": 7,
+      "downloadSpeed": 284.26,
+      "uploadSpeed": 142.13,
       "enabled": 1
     },
     {
