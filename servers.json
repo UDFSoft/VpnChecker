@@ -67,45 +67,6 @@
       "enabled": 1
     },
     {
-      "id": 322879,
-      "country": "Thailand",
-      "ip": "27.130.198.143",
-      "hostName": "vpn627451561",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322879",
-      "ping": 2,
-      "downloadSpeed": 379.28,
-      "uploadSpeed": 189.64,
-      "enabled": 1
-    },
-    {
-      "id": 322877,
-      "country": "Korea Republic of",
-      "ip": "220.76.229.125",
-      "hostName": "vpn975578001",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322877",
-      "ping": 33,
-      "downloadSpeed": 192.01,
-      "uploadSpeed": 96.01,
-      "enabled": 1
-    },
-    {
-      "id": 322778,
-      "country": "Japan",
-      "ip": "133.218.182.132",
-      "hostName": "vpn587057222",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/322778",
-      "ping": 3,
-      "downloadSpeed": 217.8,
-      "uploadSpeed": 108.9,
-      "enabled": 1
-    },
-    {
       "id": 321607,
       "country": "Japan",
       "ip": "223.132.1.215",
@@ -158,16 +119,29 @@
       "enabled": 1
     },
     {
-      "id": 318266,
+      "id": 319351,
       "country": "Japan",
-      "ip": "27.94.235.236",
-      "hostName": "vpn569909532",
+      "ip": "118.18.160.137",
+      "hostName": "vpn186444521",
       "userName": "vpn",
       "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/318266",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/319351",
+      "ping": 6,
+      "downloadSpeed": 43.26,
+      "uploadSpeed": 21.63,
+      "enabled": 1
+    },
+    {
+      "id": 318566,
+      "country": "Japan",
+      "ip": "110.67.241.211",
+      "hostName": "vpn657706801",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/318566",
       "ping": 2,
-      "downloadSpeed": 747.25,
-      "uploadSpeed": 373.63,
+      "downloadSpeed": 485.01,
+      "uploadSpeed": 242.51,
       "enabled": 1
     },
     {
