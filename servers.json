@@ -173,19 +173,6 @@
             "enabled": 1
         },
         {
-            "id": 308424,
-            "country": "Croatia (LOCAL Name: Hrvatska)",
-            "ip": "150.40.105.9",
-            "hostName": "vpn265277249",
-            "userName": "vpn",
-            "userPassword": "vpn",
-            "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/308424",
-            "ping": 1,
-            "downloadSpeed": 206.19,
-            "uploadSpeed": 103.1,
-            "enabled": 1
-        },
-        {
             "id": 311184,
             "country": "Korea Republic of",
             "ip": "112.223.241.142",
@@ -196,6 +183,19 @@
             "ping": 45,
             "downloadSpeed": 99.35,
             "uploadSpeed": 49.68,
+            "enabled": 1
+        },
+        {
+            "id": 308424,
+            "country": "Croatia (LOCAL Name: Hrvatska)",
+            "ip": "150.40.105.9",
+            "hostName": "vpn265277249",
+            "userName": "vpn",
+            "userPassword": "vpn",
+            "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/308424",
+            "ping": 1,
+            "downloadSpeed": 206.19,
+            "uploadSpeed": 103.1,
             "enabled": 1
         },
         {
