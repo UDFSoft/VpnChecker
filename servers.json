@@ -15,6 +15,19 @@
       "enabled": 1
     },
     {
+      "id": 306978,
+      "country": "Croatia (LOCAL Name: Hrvatska)",
+      "ip": "150.40.105.10",
+      "hostName": "vpn430861125",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/306978",
+      "ping": 1,
+      "downloadSpeed": 213.6,
+      "uploadSpeed": 106.8,
+      "enabled": 1
+    },
+    {
       "id": 320645,
       "country": "Korea Republic of",
       "ip": "175.113.163.59",
@@ -223,19 +236,6 @@
       "enabled": 1
     },
     {
-      "id": 269838,
-      "country": "Korea Republic of",
-      "ip": "222.117.234.75",
-      "hostName": "vpn488115992",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/269838",
-      "ping": 32,
-      "downloadSpeed": 66.32,
-      "uploadSpeed": 33.16,
-      "enabled": 1
-    },
-    {
       "id": 324161,
       "country": "Korea Republic of",
       "ip": "210.178.97.55",
@@ -353,19 +353,6 @@
       "enabled": 1
     },
     {
-      "id": 321224,
-      "country": "Korea Republic of",
-      "ip": "221.154.186.32",
-      "hostName": "vpn911800374",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321224",
-      "ping": 27,
-      "downloadSpeed": 95.78,
-      "uploadSpeed": 47.89,
-      "enabled": 1
-    },
-    {
       "id": 321316,
       "country": "Japan",
       "ip": "60.91.7.225",
@@ -444,6 +431,19 @@
       "enabled": 1
     },
     {
+      "id": 325131,
+      "country": "Russian Federation",
+      "ip": "86.102.141.81",
+      "hostName": "vpn439081314",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/325131",
+      "ping": 47,
+      "downloadSpeed": 428.08,
+      "uploadSpeed": 214.04,
+      "enabled": 1
+    },
+    {
       "id": 325129,
       "country": "Korea Republic of",
       "ip": "119.195.167.131",
@@ -493,19 +493,6 @@
       "ping": 2,
       "downloadSpeed": 204.85,
       "uploadSpeed": 102.43,
-      "enabled": 1
-    },
-    {
-      "id": 325130,
-      "country": "Thailand",
-      "ip": "180.180.59.86",
-      "hostName": "vpn962509062",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/325130",
-      "ping": 2,
-      "downloadSpeed": 621.12,
-      "uploadSpeed": 310.56,
       "enabled": 1
     }
   ]
