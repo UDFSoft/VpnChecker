@@ -15,19 +15,6 @@
       "enabled": 1
     },
     {
-      "id": 306977,
-      "country": "Croatia (LOCAL Name: Hrvatska)",
-      "ip": "150.40.105.12",
-      "hostName": "vpn981204829",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/306977",
-      "ping": 1,
-      "downloadSpeed": 179.96,
-      "uploadSpeed": 89.98,
-      "enabled": 1
-    },
-    {
       "id": 306978,
       "country": "Croatia (LOCAL Name: Hrvatska)",
       "ip": "150.40.105.10",
@@ -158,19 +145,6 @@
       "enabled": 1
     },
     {
-      "id": 324836,
-      "country": "Japan",
-      "ip": "153.135.8.222",
-      "hostName": "vpn440254653",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/324836",
-      "ping": 6,
-      "downloadSpeed": 74.25,
-      "uploadSpeed": 37.13,
-      "enabled": 1
-    },
-    {
       "id": 324346,
       "country": "Korea Republic of",
       "ip": "175.194.246.85",
@@ -181,19 +155,6 @@
       "ping": 32,
       "downloadSpeed": 52.8,
       "uploadSpeed": 26.4,
-      "enabled": 1
-    },
-    {
-      "id": 323558,
-      "country": "Korea Republic of",
-      "ip": "59.15.245.216",
-      "hostName": "vpn780884596",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/323558",
-      "ping": 30,
-      "downloadSpeed": 100.7,
-      "uploadSpeed": 50.35,
       "enabled": 1
     },
     {
@@ -262,19 +223,6 @@
       "enabled": 1
     },
     {
-      "id": 325054,
-      "country": "Korea Republic of",
-      "ip": "114.202.42.192",
-      "hostName": "vpn120199313",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/325054",
-      "ping": 37,
-      "downloadSpeed": 40.34,
-      "uploadSpeed": 20.17,
-      "enabled": 1
-    },
-    {
       "id": 324929,
       "country": "Russian Federation",
       "ip": "136.169.234.184",
@@ -314,16 +262,29 @@
       "enabled": 1
     },
     {
-      "id": 325034,
-      "country": "Korea Republic of",
-      "ip": "147.47.146.237",
-      "hostName": "vpn301041593",
+      "id": 13422,
+      "country": "Japan",
+      "ip": "219.100.37.113",
+      "hostName": "public-vpn-119",
       "userName": "vpn",
       "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/325034",
-      "ping": 41,
-      "downloadSpeed": 30.85,
-      "uploadSpeed": 15.43,
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/13422",
+      "ping": 8,
+      "downloadSpeed": 434.45,
+      "uploadSpeed": 217.23,
+      "enabled": 1
+    },
+    {
+      "id": 325029,
+      "country": "Japan",
+      "ip": "126.131.65.9",
+      "hostName": "vpn557181489",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/325029",
+      "ping": 18,
+      "downloadSpeed": 181.71,
+      "uploadSpeed": 90.86,
       "enabled": 1
     },
     {
@@ -389,19 +350,6 @@
       "ping": 112,
       "downloadSpeed": 91.85,
       "uploadSpeed": 45.93,
-      "enabled": 1
-    },
-    {
-      "id": 321993,
-      "country": "Japan",
-      "ip": "180.198.167.80",
-      "hostName": "vpn975550277",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/321993",
-      "ping": 13,
-      "downloadSpeed": 60.65,
-      "uploadSpeed": 30.33,
       "enabled": 1
     },
     {
@@ -519,19 +467,6 @@
       "ping": 61,
       "downloadSpeed": 14.57,
       "uploadSpeed": 7.29,
-      "enabled": 1
-    },
-    {
-      "id": 149384,
-      "country": "Japan",
-      "ip": "106.161.41.4",
-      "hostName": "vpn706828378",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/149384",
-      "ping": 2,
-      "downloadSpeed": 2083.21,
-      "uploadSpeed": 1041.61,
       "enabled": 1
     },
     {
