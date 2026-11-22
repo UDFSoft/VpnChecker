@@ -145,19 +145,6 @@
       "enabled": 1
     },
     {
-      "id": 325908,
-      "country": "Japan",
-      "ip": "60.67.47.213",
-      "hostName": "vpn928523793",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/325908",
-      "ping": 3,
-      "downloadSpeed": 580.64,
-      "uploadSpeed": 290.32,
-      "enabled": 1
-    },
-    {
       "id": 320645,
       "country": "Korea Republic of",
       "ip": "175.113.163.59",
@@ -314,32 +301,6 @@
       "enabled": 1
     },
     {
-      "id": 296255,
-      "country": "Korea Republic of",
-      "ip": "119.195.254.240",
-      "hostName": "vpn783575401",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/296255",
-      "ping": 33,
-      "downloadSpeed": 71.35,
-      "uploadSpeed": 35.68,
-      "enabled": 1
-    },
-    {
-      "id": 295850,
-      "country": "Japan",
-      "ip": "118.156.88.5",
-      "hostName": "vpn365529984",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/295850",
-      "ping": 2,
-      "downloadSpeed": 840.49,
-      "uploadSpeed": 420.25,
-      "enabled": 1
-    },
-    {
       "id": 308122,
       "country": "Korea Republic of",
       "ip": "49.174.213.183",
@@ -470,19 +431,6 @@
       "enabled": 1
     },
     {
-      "id": 293324,
-      "country": "United States",
-      "ip": "75.85.180.167",
-      "hostName": "vpn503120135",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/293324",
-      "ping": 18,
-      "downloadSpeed": 324,
-      "uploadSpeed": 162,
-      "enabled": 1
-    },
-    {
       "id": 301662,
       "country": "Korea Republic of",
       "ip": "118.42.11.232",
@@ -493,58 +441,6 @@
       "ping": 28,
       "downloadSpeed": 83.93,
       "uploadSpeed": 41.97,
-      "enabled": 1
-    },
-    {
-      "id": 300388,
-      "country": "Korea Republic of",
-      "ip": "115.22.223.14",
-      "hostName": "vpn768864831",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/300388",
-      "ping": 25,
-      "downloadSpeed": 178.57,
-      "uploadSpeed": 89.29,
-      "enabled": 1
-    },
-    {
-      "id": 258316,
-      "country": "Korea Republic of",
-      "ip": "1.229.239.249",
-      "hostName": "vpn283397564",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/258316",
-      "ping": 60,
-      "downloadSpeed": 25.62,
-      "uploadSpeed": 12.81,
-      "enabled": 1
-    },
-    {
-      "id": 258425,
-      "country": "Japan",
-      "ip": "207.65.181.159",
-      "hostName": "vpn475849261",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/258425",
-      "ping": 2,
-      "downloadSpeed": 98.12,
-      "uploadSpeed": 49.06,
-      "enabled": 1
-    },
-    {
-      "id": 295182,
-      "country": "Korea Republic of",
-      "ip": "165.246.22.120",
-      "hostName": "vpn120431785",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/295182",
-      "ping": 36,
-      "downloadSpeed": 50.85,
-      "uploadSpeed": 25.43,
       "enabled": 1
     },
     {
@@ -561,6 +457,45 @@
       "enabled": 1
     },
     {
+      "id": 258316,
+      "country": "Korea Republic of",
+      "ip": "1.229.239.249",
+      "hostName": "vpn283397564",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/258316",
+      "ping": 60,
+      "downloadSpeed": 25.62,
+      "uploadSpeed": 12.81,
+      "enabled": 1
+    },
+    {
+      "id": 300388,
+      "country": "Korea Republic of",
+      "ip": "115.22.223.14",
+      "hostName": "vpn768864831",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/300388",
+      "ping": 25,
+      "downloadSpeed": 178.57,
+      "uploadSpeed": 89.29,
+      "enabled": 1
+    },
+    {
+      "id": 295182,
+      "country": "Korea Republic of",
+      "ip": "165.246.22.120",
+      "hostName": "vpn120431785",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/295182",
+      "ping": 36,
+      "downloadSpeed": 50.85,
+      "uploadSpeed": 25.43,
+      "enabled": 1
+    },
+    {
       "id": 260195,
       "country": "Japan",
       "ip": "115.179.206.241",
@@ -571,6 +506,45 @@
       "ping": 12,
       "downloadSpeed": 44.38,
       "uploadSpeed": 22.19,
+      "enabled": 1
+    },
+    {
+      "id": 293324,
+      "country": "United States",
+      "ip": "75.85.180.167",
+      "hostName": "vpn503120135",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/293324",
+      "ping": 18,
+      "downloadSpeed": 324,
+      "uploadSpeed": 162,
+      "enabled": 1
+    },
+    {
+      "id": 289814,
+      "country": "Japan",
+      "ip": "118.103.134.176",
+      "hostName": "vpn604847533",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/289814",
+      "ping": 13,
+      "downloadSpeed": 97.51,
+      "uploadSpeed": 48.76,
+      "enabled": 1
+    },
+    {
+      "id": 284079,
+      "country": "Japan",
+      "ip": "116.12.3.7",
+      "hostName": "vpn655036513",
+      "userName": "vpn",
+      "userPassword": "vpn",
+      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/284079",
+      "ping": 6,
+      "downloadSpeed": 882.53,
+      "uploadSpeed": 441.27,
       "enabled": 1
     }
   ]
