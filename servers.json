@@ -171,19 +171,6 @@
       "enabled": 1
     },
     {
-      "id": 320653,
-      "country": "Korea Republic of",
-      "ip": "175.198.234.16",
-      "hostName": "vpn151821463",
-      "userName": "vpn",
-      "userPassword": "vpn",
-      "vpnConfigUrl": "https://vpn.udfsoft.com/api/v1/checker/servers/320653",
-      "ping": 33,
-      "downloadSpeed": 33.13,
-      "uploadSpeed": 16.57,
-      "enabled": 1
-    },
-    {
       "id": 326624,
       "country": "Korea Republic of",
       "ip": "121.142.104.60",
